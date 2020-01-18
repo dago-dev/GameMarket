@@ -1,0 +1,234 @@
+body {
+  margin: 0; //隙間をなくす。
+  background: gray;
+  font-size: 25px;
+}
+header {
+  background: white;
+  overflow: hidden;
+}
+.heading {
+  display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  width: auto;
+}
+#form5{
+/* position: relative; */
+padding:40px;
+width: 600px;
+display: flex;
+margin-left: auto;
+}
+#sbox5{
+outline: 0;
+height: 35px;
+padding: 0 1px;
+/* float: left; */
+/* position: absolute; */
+/* right: 600px; */
+/* top: 0; */
+width:600px;
+border-radius:2px;
+border:solid 2px #eaeaea;
+outline: 0;
+}
+#sbtn5{
+padding: 0;
+width: 70px;
+height: 40px;
+/* float: left; */
+/* position: absolute; */
+/* left: 160px; */
+/* top: 0; */
+border-radius:2px;
+background:#7fbfff;
+color:#fff;
+border:solid 2px #eaeaea;
+font-weight:bold;
+font-size:16px;
+outline: 0;
+}
+#sbtn5:hover{
+background:#eaeaea;
+color:#7fbfff;
+}
+.heading img {
+  height: 80px;
+  width: 200px;
+  padding: 5px;
+}
+connect{
+  float: left;
+}
+/* header li {
+  float: left;
+  margin-left: :30px;
+  padding-right: 30px; //隙間調整
+
+}
+header a {
+  color: white;
+}
+
+ul.navi li {
+  margin-bottom: 10px;
+  display: inline;
+  margin-right: 10px;
+} */
+footer {
+  font-size: 15px;
+  bottom: 0;
+  text-align: center;
+  background: #000000;
+  display: flex;
+  justify-content: center;
+}
+.footer-container {
+  paddinng;20px;
+  border-radius: 0 0 10px 10px;
+  text-align: center;
+  color: white;
+}
+footer p {
+  text-align: center;
+}
+.navi{
+  background: #000000;
+  border-bottom:5px solid #37a29B;
+}
+.navi ul {
+  list-style: none;
+  display: flex; //ボックスを横一列、または縦一列に並べる。ぴったり収まるようにする
+  justify-content: space-between;
+  margin:0;
+  padding: 20px 10px 0 10px;
+  width: 500px;
+}
+.navi ul li {
+
+}
+.navi li a {
+  display: block;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #ffffff;
+}
+.navi li a:hover {
+  background: #37a29B;
+  border-radius: 10px 10px 0 0;
+}
+
+.contents {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.content_post {
+  box-sizing: border-box;
+  width: 20%;
+  padding: 15px;
+  font-size: 14px;
+  border: 4px double #ddd;
+  margin: 2em 0;
+  padding: 2em;
+}
+
+img {
+  width: 100%;
+  height: 220px;
+}
+.square_btn{
+    display: inline-block;
+    padding:  0.5em 1em;
+    text-decoration: none;
+    background: #ea352d;/*ボタン色*/
+    color: #FFF;
+    border-bottom: solid 4px ##ea352d;
+    border-radius: 3px;
+    width: 70px;
+    height: 30px;
+    font-size: 13px;
+    text-align: center;
+    line-height: 40px;
+    margin: 5px;
+    margin-right:auto;
+}
+.square_btn:active {/*ボタンを押したとき*/
+    -ms-transform: translateY(4px);
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+}
+.square_btn2{
+    display: inline-block;
+    padding:  0.5em 1em;
+    text-decoration: none;
+    background: #0099e8;;/*ボタン色*/
+    color: #FFF;
+    border-bottom: solid 4px #0099e8;;
+    border-radius: 3px;
+    width: 120px;
+    height: 25px;
+    font-size: 13px;
+    text-align: center;
+    line-height: 40px;
+    margin: 5px;
+    margin-right:auto;
+}
+.square_btn2:active {/*ボタンを押したとき*/
+    -ms-transform: translateY(4px);
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+}
+.btn {
+  /* display: flex; */
+  /* flex-end; */
+  text-align: right;
+  padding: 0 10px;
+}
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.show_contents {
+  width: 1200px;
+}
+.item_box2 {
+  display: flex;
+  justify-content: center;
+}
+.item_box2 img {
+  width: 585px;
+  height: 585px;
+  padding: 8px;
+  margin: auto;
+}
+.item_description{
+  margin: auto;
+}
+.item_description h4 {
+  background: #f5f5f5;
+  padding: 8px;
+  width:300px;
+  margin: 0px 0px 0px;
+  line-height: 1.1;
+}
+.price {
+  color: #fa4141;
+}
+.detail {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
